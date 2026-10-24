@@ -1,0 +1,18 @@
+# --- Núcleo (todos MIT/BSD/Apache — livres e gratuitos) ---
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+librosa>=0.10
+pyloudnorm>=0.1.1
+psutil>=5.9
+
+# --- Separação por IA (modelos abertos, pesos livres) ---
+torch>=2.0
+torchaudio>=2.0
+demucs>=4.0.1
+
+# --- Restauração de áudio ---
+noisereduce>=3.0
+
+# --- Opcional: segunda passagem com modelos UVR/MDX-Net ---
+# audio-separator[gpu]>=0.17   # use [cpu] se não tiver GPU NVIDIA
